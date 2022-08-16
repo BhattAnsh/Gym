@@ -168,3 +168,19 @@ body{
     border-radius: 5px;
     font-family: "kanti", sans-serif;
 }
+.one_year:hover{
+    background-color: rgb(98, 168, 60);
+}
+.onemonth:hover{
+    background-color:rgb(194, 53, 53) ;
+}
+.sixmonths:hover{
+    background-color:rgb(185, 59, 175) ;
+}
+.get_basic,.get_standard, .get_primium{
+    background-color: rgb(46, 46, 46);
+}
+.get_primium:hover, .get_basic:hover,.get_standard:hover{
+    cursor: pointer;
+    background-color: black;
+}
