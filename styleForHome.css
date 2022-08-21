@@ -227,15 +227,26 @@ hr{
     }
     .slogan{
         font-size: 20px;
+        top: 9px;
     }
     .container1,.container2,.container3{
         display: inline;
         background-color: transparent;
         box-shadow: none;
+        justify-content: center;
     }
     .container1 img, .container2 img,.container3 img{
-        width: 440px;
-        margin: 0 46px;
+        width: 280px;
+        text-align: center;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .para{
+        background-color: #4ace4a;
+        margin-top: 0;
+        border-radius: 5px;
+        display: inline-block;
     }
     
 }
