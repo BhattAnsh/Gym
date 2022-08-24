@@ -1,0 +1,13 @@
+body{
+    /* background-color:  black; */
+    margin: 0%;
+    text-align: center;
+}
+.form{
+    border: black solid;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-top: 190px;
+}
+

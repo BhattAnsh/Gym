@@ -193,6 +193,27 @@ body{
     margin-right: 10px;
     display: none;
 }
+.sideNavBar{
+    color: white;
+}
+.side_navigation_items{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.238);
+    position: relative;
+    top: 0;
+    padding: 1px;
+    flex: none;
+    display: none;
+}
+
+.items{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 15px;
+}
 
 @media (max-width:1000px) and (min-width:620px){
     .logo{
@@ -215,7 +236,7 @@ body{
     #nav_bars{
         display: inline;
         float: left;
-        top: 2px;
+        top: 18px;
         margin-right: 5px;
         margin-left: 7px;
         font-size: 22px;
