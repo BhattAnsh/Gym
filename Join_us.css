@@ -65,6 +65,10 @@ body{
     color: white;
     font-weight: 600;
 }
+.log #log_in{
+    text-decoration: none;
+    color: white;
+}
 .princing_container{
     position: relative;
     top: 20px;

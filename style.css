@@ -72,6 +72,10 @@ body{
     color: white;
     font-weight: 600;
 }
+.log #log_in{
+    text-decoration: none;
+    color: white;
+}
 .main_body{
     text-align: center;
     justify-content: center;

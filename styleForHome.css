@@ -67,6 +67,10 @@ body{
     color: white;
     font-weight: 600;
 }
+.log #log_in{
+    text-decoration: none;
+    color: white;
+}
 .slogan{
     font-family: "Roboto Slab", sans-serif;
     text-align: center;

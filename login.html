@@ -6,19 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="loginForCss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
-    <form action="" class="form">
-        <h2 class="welcome_note">Welcome</h2>
+    <div class="container">
+        <div class="navigation_bar">
+            <i class="fa fa-bars" id="nav_bars" onclick="show()"></i>
+            <div class="logo">
+                <a href="lagingpage2.html">
+                    <h2 class="logo_text" id="logo_text1">Fitness</h2>
+                    <h2 class="logo_text" id="logo_text2">World</h2>
+                </a>
+            </div>
+            <div class="navigation_items">
+                <a href="lagingpage2.html" class="nav_item">Home</a>
+                <a href="home.html" class="nav_item">About</a>
+                <a href="joinus.html" class="nav_item">About Plans</a>
+            </div>
+        </div>
+    </div>
+    <div class="sideNavBar">
+        <div class="side_navigation_items" id="sideNavBar">
+            <a href="lagingpage2.html" class="items">Home</a>
+            <a href="home.html" class="items">About</a>
+            <a href="joinus.html" class="items">About Plans</a>
+        </div>
+    </div>
+    <form action="" class="form" id="form">
+        <h2 class="welcome_note">Welcome To</h2>
         <h4 class="companyName">Fitness Hub</h4>
         <input class="content input_content" type="text" name="email" id="email" placeholder="Enter your email here">
         <br>
         <input class="content input_content" type="password" name="password" id="password" placeholder="Enter your password here">
         <br>
-        <button class="login  content">Login</button>
+        <button class="login  content" id="login">Login</button>
         <p class="ask_about_account">Don't have any account?<a href="#" class="sign_up">Sign in</a></p>
     </form>
+    <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+            <i><img src="Checkmark-green-tick-isolated-on-transparent-background-PNG.png" alt="" class="check_mark"></i>
+            <h5 class="aboutCM">You successfully logined to website.</h5>
+        </div>
+    </div>
     <br>
 </body>
+<script src="jsForLoginPage.js"></script>
+
 </html>
